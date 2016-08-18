@@ -1,0 +1,174 @@
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "1gG-cK-a6i"; */
+"1gG-cK-a6i.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UIButton"; normalTitle = "Remember me"; ObjectID = "2fL-Ag-Mwc"; */
+"2fL-Ag-Mwc.normalTitle" = "Remember me Dev";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "4Xo-AO-xuT"; */
+"4Xo-AO-xuT.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "News Details"; ObjectID = "5KQ-ol-yM2"; */
+"5KQ-ol-yM2.title" = "News Details";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "6gk-SB-DE7"; */
+"6gk-SB-DE7.text" = "Time";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "7yT-5z-ktD"; */
+"7yT-5z-ktD.normalTitle" = "Submit";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "83u-Br-cRg"; */
+"83u-Br-cRg.placeholder" = "Password";
+
+/* Class = "UINavigationItem"; title = "Comments"; ObjectID = "8EF-bE-r01"; */
+"8EF-bE-r01.title" = "Comments";
+
+/* Class = "UIButton"; normalTitle = "Signup"; ObjectID = "Ahs-WO-IAg"; */
+"Ahs-WO-IAg.normalTitle" = "Signup";
+
+/* Class = "UILabel"; text = "    Profile"; ObjectID = "DNg-r1-f8M"; */
+"DNg-r1-f8M.text" = "    Profile";
+
+/* Class = "UILabel"; text = "Signin or Register to setup \n\nyour sources and start\n\n receiving news"; ObjectID = "GfM-6k-YnV"; */
+"GfM-6k-YnV.text" = "Signin or Register to setup \n\nyour sources and start\n\n receiving news";
+
+/* Class = "UIButton"; normalTitle = "NEWS DETAILS"; ObjectID = "H6z-OA-aFs"; */
+"H6z-OA-aFs.normalTitle" = "NEWS DETAILS";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "LY5-Qy-KfX"; */
+"LY5-Qy-KfX.normalTitle" = "Submit";
+
+/* Class = "UILabel"; text = "Username"; ObjectID = "LZs-FM-ECZ"; */
+"LZs-FM-ECZ.text" = "Username";
+
+/* Class = "UILabel"; text = "3Ayn"; ObjectID = "OYM-hY-xyU"; */
+"OYM-hY-xyU.text" = "3Ayn";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "Oql-qc-P3a"; */
+"Oql-qc-P3a.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Latest News"; ObjectID = "PeC-vc-Nku"; */
+"PeC-vc-Nku.text" = "Latest News";
+
+/* Class = "UILabel"; text = "CNN"; ObjectID = "QRm-vg-wE4"; */
+"QRm-vg-wE4.text" = "CNN";
+
+/* Class = "UITextField"; placeholder = "Contact Number"; ObjectID = "R8e-ue-gZM"; */
+"R8e-ue-gZM.placeholder" = "Contact Number";
+
+/* Class = "UIButton"; normalTitle = "Signup"; ObjectID = "Tuv-CM-JAp"; */
+"Tuv-CM-JAp.normalTitle" = "Signup";
+
+/* Class = "UILabel"; text = "3Ayn"; ObjectID = "VOY-Jq-lcM"; */
+"VOY-Jq-lcM.text" = "3Ayn";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Vig-gz-8N9"; */
+"Vig-gz-8N9.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "WMO-HY-ZWa"; */
+"WMO-HY-ZWa.text" = "Label";
+
+/* Class = "UISegmentedControl"; X5U-oh-Z9o.segmentTitles[0] = "Mail"; ObjectID = "X5U-oh-Z9o"; */
+"X5U-oh-Z9o.segmentTitles[0]" = "Mail";
+
+/* Class = "UISegmentedControl"; X5U-oh-Z9o.segmentTitles[1] = "fb"; ObjectID = "X5U-oh-Z9o"; */
+"X5U-oh-Z9o.segmentTitles[1]" = "fb";
+
+/* Class = "UISegmentedControl"; X5U-oh-Z9o.segmentTitles[2] = "g+"; ObjectID = "X5U-oh-Z9o"; */
+"X5U-oh-Z9o.segmentTitles[2]" = "g+";
+
+/* Class = "UISegmentedControl"; X5U-oh-Z9o.segmentTitles[3] = "Twitter"; ObjectID = "X5U-oh-Z9o"; */
+"X5U-oh-Z9o.segmentTitles[3]" = "Twitter";
+
+/* Class = "UISegmentedControl"; X5U-oh-Z9o.segmentTitles[4] = "Whatsapp"; ObjectID = "X5U-oh-Z9o"; */
+"X5U-oh-Z9o.segmentTitles[4]" = "Whatsapp";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "XyL-qq-jMK"; */
+"XyL-qq-jMK.text" = "Label";
+
+/* Class = "UISegmentedControl"; Yuf-by-krh.segmentTitles[0] = "Latest"; ObjectID = "Yuf-by-krh"; */
+"Yuf-by-krh.segmentTitles[0]" = "Latest";
+
+/* Class = "UISegmentedControl"; Yuf-by-krh.segmentTitles[1] = "Urgent"; ObjectID = "Yuf-by-krh"; */
+"Yuf-by-krh.segmentTitles[1]" = "Urgent";
+
+/* Class = "UISegmentedControl"; Yuf-by-krh.segmentTitles[2] = "Most Read"; ObjectID = "Yuf-by-krh"; */
+"Yuf-by-krh.segmentTitles[2]" = "Most Read";
+
+/* Class = "UIButton"; normalTitle = "Signin"; ObjectID = "Yxz-kX-Yau"; */
+"Yxz-kX-Yau.normalTitle" = "Signin";
+
+/* Class = "UIButton"; normalTitle = "SIGNIN"; ObjectID = "b0K-xi-cqO"; */
+"b0K-xi-cqO.normalTitle" = "SIGNIN";
+
+/* Class = "UIButton"; normalTitle = "News Detail"; ObjectID = "bY4-Jy-cSb"; */
+"bY4-Jy-cSb.normalTitle" = "News Detail";
+
+/* Class = "UIButton"; normalTitle = "Skip for now"; ObjectID = "cUu-DJ-e1p"; */
+"cUu-DJ-e1p.normalTitle" = "Skip for now";
+
+/* Class = "UILabel"; text = "News String"; ObjectID = "cmj-6G-4pw"; */
+"cmj-6G-4pw.text" = "News String";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "gTR-0e-qK7"; */
+"gTR-0e-qK7.normalTitle" = "Cancel";
+
+/* Class = "UITextField"; placeholder = "Emailid"; ObjectID = "gaO-IY-b7z"; */
+"gaO-IY-b7z.placeholder" = "Emailid";
+
+/* Class = "UINavigationItem"; title = "News"; ObjectID = "hPY-OT-6Ai"; */
+"hPY-OT-6Ai.title" = "News";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "i6k-Rv-H1M"; */
+"i6k-Rv-H1M.normalTitle" = "Login";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "iYS-8l-AT3"; */
+"iYS-8l-AT3.text" = "Time";
+
+/* Class = "UILabel"; text = "Enter your email to reset password."; ObjectID = "lMv-1Y-wjb"; */
+"lMv-1Y-wjb.text" = "Enter your email to reset password.";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "mLg-zq-CF4"; */
+"mLg-zq-CF4.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Forgot password"; ObjectID = "mgV-b6-PwF"; */
+"mgV-b6-PwF.normalTitle" = "Forgot password";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "oBz-7B-dHf"; */
+"oBz-7B-dHf.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Skip for now"; ObjectID = "pAV-Kr-BRL"; */
+"pAV-Kr-BRL.normalTitle" = "Skip for now";
+
+/* Class = "UILabel"; text = "3Ayn"; ObjectID = "pFx-ca-Gpl"; */
+"pFx-ca-Gpl.text" = "3Ayn";
+
+/* Class = "UILabel"; text = "Channel Name"; ObjectID = "qJA-Xa-M59"; */
+"qJA-Xa-M59.text" = "Channel Name";
+
+/* Class = "UIButton"; normalTitle = "Signup"; ObjectID = "tor-E7-DrD"; */
+"tor-E7-DrD.normalTitle" = "Signup";
+
+/* Class = "UIButton"; normalTitle = "Signup"; ObjectID = "u3k-zN-W8N"; */
+"u3k-zN-W8N.normalTitle" = "Signup";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "uEM-gC-D2r"; */
+"uEM-gC-D2r.placeholder" = "Username";
+
+/* Class = "UILabel"; text = "Channel Name"; ObjectID = "uh3-Ry-nRm"; */
+"uh3-Ry-nRm.text" = "Channel Name";
+
+/* Class = "UIButton"; normalTitle = "+ Add"; ObjectID = "vy5-fe-G97"; */
+"vy5-fe-G97.normalTitle" = "+ Add";
+
+/* Class = "UILabel"; text = "News String"; ObjectID = "w05-BX-t1j"; */
+"w05-BX-t1j.text" = "News String";
+
+/* Class = "UILabel"; text = "Forgot your password?"; ObjectID = "wiz-Bp-EzE"; */
+"wiz-Bp-EzE.text" = "Forgot your password?";
+
+/* Class = "UIButton"; normalTitle = "REGISTER"; ObjectID = "xFt-R4-pJP"; */
+"xFt-R4-pJP.normalTitle" = "REGISTER";
+
+/* Class = "UILabel"; text = "Suggestion"; ObjectID = "xK3-Qs-Fqj"; */
+"xK3-Qs-Fqj.text" = "Suggestion";

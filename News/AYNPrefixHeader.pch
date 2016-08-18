@@ -1,0 +1,23 @@
+//
+//  AYNPrefixHeader.pch
+//  News
+//
+//  Created by Vidvat Joshi on 07/04/16.
+//  Copyright © 2016 ACS. All rights reserved.
+//
+
+#ifndef AYNPrefixHeader_pch
+#define AYNPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import "AppDelegate.h"
+#import "constant.h"
+//Classes-->ThirdParty
+#import "Reachability.h"
+#import "NSBundle+Language.h"
+#import "MBProgressHUD.h"
+
+#endif /* AYNPrefixHeader_pch */
