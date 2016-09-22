@@ -153,6 +153,7 @@
 
 -(void)getLikesNews
 {
+    @try {
     if ([Reachability sharedReachability].internetConnectionStatus==NotReachable)
     {
         
@@ -184,6 +185,12 @@
                 [alert show];
             }
         });
+    }
+  }
+    @catch (NSException *exception) {
+        NSLog(@"%@", exception.reason);
+    }
+    @finally {
     }
 }
 

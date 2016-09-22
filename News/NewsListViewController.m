@@ -66,13 +66,14 @@
     [self.navigationController setNavigationBarHidden:NO animated:YES];
     [self setLocalizableText];
     _newsViewTbl.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
+    searchBarheight = self.searchBarHeightConstant.constant;
+    self.searchBarHeightConstant.constant =0;
 }
 
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    searchBarheight = self.searchBarHeightConstant.constant;
-    self.searchBarHeightConstant.constant =0;
+    
 }
 
 -(void) setLocalizableText
@@ -596,4 +597,7 @@
     [self.view endEditing:YES];
 }
 
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    [self.view endEditing:YES];
+}
 @end
