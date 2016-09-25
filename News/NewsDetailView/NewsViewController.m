@@ -109,7 +109,7 @@
 -(void)setImagerightBarItem
 {
     UIImage* settingImage      = [UIImage imageNamed:@"setting.png"];
-    UIImage* editImage   = [UIImage imageNamed:@"edit.png"];
+    UIImage* editImage   = [UIImage imageNamed:@"comment_icon.png"];
     
     UIImage* favImg;
     if(likedStatus == 1) {
@@ -121,7 +121,7 @@
     CGRect frameimg = CGRectMake(0, 0,20,20);
     UIButton *settingButton = [[UIButton alloc] initWithFrame:frameimg];
     [settingButton setBackgroundImage:settingImage forState:UIControlStateNormal];
-    UIButton *editButton    = [[UIButton alloc] initWithFrame:CGRectMake(0, 0,20,20)];
+    UIButton *editButton    = [[UIButton alloc] initWithFrame:CGRectMake(0, 0,30,30)];
     [editButton setBackgroundImage:editImage forState:UIControlStateNormal];
     [settingButton addTarget:self action:@selector(openSettinView) forControlEvents:UIControlEventTouchUpInside];
     UIButton *favButton  = [[UIButton alloc] initWithFrame:CGRectMake(0, 0,20,20)];

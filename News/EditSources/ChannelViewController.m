@@ -192,6 +192,7 @@
     else
     {
         channelValue = @"1";
+        [cell.AddBtn setImage:nil forState:UIControlStateNormal];
         [cell.AddBtn setTitle:[NSString stringWithFormat:@"%@ +",NSLocalizedString(@"add", @"")] forState:UIControlStateNormal];
     }
     
@@ -262,7 +263,8 @@
             if([AppDelegate appDelegate].deviceToken == nil) {
                 [AppDelegate appDelegate].deviceToken = @"";
             }
-            channelValue = @"";
+            channelValue = [[_chanelListAry objectAtIndex:indexPath.row] objectForKey:@"added"];
+            channelValue = ([channelValue isEqual:@0])? @"":@"del";
             NSDictionary *dic = [[NSDictionary alloc] initWithObjectsAndKeys:channelValue,@"action",[AppDelegate appDelegate].deviceToken,@"uid",currentDeviceId,@"did",[NSNumber numberWithInt:[sourceId intValue]],@"sid",[NSNumber numberWithInt:[channelId intValue]],@"cid",nil];
             NSDictionary*response=[WebServiceCalling AddDeleteChanel:dic];
             //NSLog(@"Err'")
@@ -293,26 +295,33 @@
 
 -(void)filterArrayWithSearchTextWithsearchBar:(UISearchBar *)searchBar andSearchText:(NSString*)searchText {
     
-    searchText = [searchText stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceCharacterSet]];
-    
-    // Filter the array using NSPredicate
-    NSMutableArray *predicateArray = [NSMutableArray array];
-    
-    [predicateArray addObject:[NSPredicate predicateWithFormat:@"name CONTAINS[c] %@" , searchText]];
-    
-    NSPredicate *filterPredicate = [NSCompoundPredicate orPredicateWithSubpredicates:predicateArray];
-    
-    _chanelListAry = [NSMutableArray arrayWithArray:[_channelFilterListArray filteredArrayUsingPredicate:filterPredicate]];
-    
-    dispatch_async(dispatch_get_main_queue(), ^(void){
-        [_chanelTbl reloadData];
-    });
-    
     if([searchText isEqualToString:@""]) {
         [searchBar resignFirstResponder];
         _chanelListAry = _channelFilterListArray;
         [_chanelTbl reloadData];
+    }else{
+        searchText = [searchText stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceCharacterSet]];
+        
+        // Filter the array using NSPredicate
+        NSMutableArray *predicateArray = [NSMutableArray array];
+        
+        [predicateArray addObject:[NSPredicate predicateWithFormat:@"name CONTAINS[c] %@" , searchText]];
+        
+        NSPredicate *filterPredicate = [NSCompoundPredicate orPredicateWithSubpredicates:predicateArray];
+        
+        _chanelListAry = [NSMutableArray arrayWithArray:[_channelFilterListArray filteredArrayUsingPredicate:filterPredicate]];
+        
+        dispatch_async(dispatch_get_main_queue(), ^(void){
+            [_chanelTbl reloadData];
+        });
     }
+    
+    
+//    if([searchText isEqualToString:@""]) {
+//        [searchBar resignFirstResponder];
+//        _chanelListAry = _channelFilterListArray;
+//        [_chanelTbl reloadData];
+//    }
 }
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
